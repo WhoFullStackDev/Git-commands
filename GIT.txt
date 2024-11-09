@@ -1,0 +1,20 @@
+******************************GIT COMMANDS***********************************
+git init                        ---> This initial a folder a git repo
+git add .                       ---> This command is add git tracker to files
+git status                      ---> Check all file git status
+git commit -m <commit message>  ---> This is committed code with a message
+git diff                        ---> To see what things change in file
+git log                         ---> To see how many commits i do
+git reset --hard < commit id>   ---> To get back previously commits code
+git push                        ---> This command push the code in remote git repo
+git clone                       ---> copy remote git repo on your local machine
+git remote -v                   ---> to see remote git repo url attached with git initial folder
+git remote add "<url>"          ---> add remote git repo url to git initial folder or project
+git checkout -b <branch name>   ---> to create new branch	
+git checkout <branch name>      ---> to change branch 
+git log <branch name>           ---> to see specific branch git log
+git cherry-pick <commit id>     ---> to marge specific commit to main branch
+git log --oneline               ---> this is view log in single line
+git branch                      ---> this to see how many branch i have
+git merge <branch name>         ---> merge branch to main
+git rebase <branch name>        ---> this work same as merge but liner way  
